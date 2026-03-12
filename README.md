@@ -42,7 +42,7 @@ The courier. Its job is to read your server's log files and ship them directly t
 ## Configure Loki
 * [Loki](https://your-link-here.com)
 ## Configure Node Exporter
-* [Node Exporter](Node-Exporter/README.md)
+* [Node Exporter](NodeExporter/README.md)
 ## Configure Promtail
 * [Promtail](https://your-link-here.com)
 
