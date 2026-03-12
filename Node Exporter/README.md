@@ -1,20 +1,28 @@
-Node Exporter 
+## Node Exporter 
 
-Install and Configure Node Exporter
-
+#### Install and Configure Node Exporter
+```
 wget https://github.com/prometheus/node_exporter/releases/download/v1.9.0/node_exporter-1.9.0.linux-amd64.tar.gz
+```
 
-Extract and Move the Binary
-
+#### Extract and Move the Binary
+```
 tar -xvf node_exporter-1.9.0.linux-amd64.tar.gz
+```
+```
 sudo mv node_exporter-1.9.0.linux-amd64/node_exporter /usr/local/bin/
+```
 
-Create a System User
+#### Create a System User
+```
 sudo useradd --system --no-create-home --shell /bin/false node_exporter
+```
 
-Set Up Node Exporter as a Service
-sudo vim /etc/systemd/system/node_exporter.service
-
+#### Set Up Node Exporter as a Service
+```
+sudo nano /etc/systemd/system/node_exporter.service
+```
+```
 [Unit]
 Description=Node Exporter
 After=network.target
@@ -44,9 +52,11 @@ RestrictSUIDSGID=true
 LimitNPROC=8192
 LimitNOFILE=65535
 LimitCORE=infinity
+
 # Restart
 Restart=always
 RestartSec=5
 
 [Install]
 WantedBy=multi-user.target
+```
