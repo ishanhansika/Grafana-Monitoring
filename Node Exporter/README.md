@@ -60,3 +60,20 @@ RestartSec=5
 [Install]
 WantedBy=multi-user.target
 ```
+#### Start and Enable Node Exporter
+```
+sudo systemctl daemon-reload
+```
+```
+sudo systemctl start node_exporter
+```
+```
+sudo systemctl enable node_exporter
+```
+#### Verify Node Exporter
+```
+ ss -aplnt | grep 9100
+```
+```
+curl http://localhost:9100/metrics
+```
