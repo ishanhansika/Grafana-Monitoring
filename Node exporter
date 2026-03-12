@@ -1,1 +1,0 @@
-The agent that lives on your Linux server to gather hardware data like CPU, RAM, and Disk usage to send to Prometheus.
