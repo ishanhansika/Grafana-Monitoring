@@ -39,5 +39,6 @@ The courier. Its job is to read your server's log files and ship them directly t
 ## Configure Prometheus
 ## Configure Loki
 ## Configure Node Exporter
+
 ## Configure Promtail
 
