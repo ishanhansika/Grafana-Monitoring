@@ -1,4 +1,4 @@
-Loki
+## Loki
 
 #### Create a Dedicated Loki Directory
 ```
