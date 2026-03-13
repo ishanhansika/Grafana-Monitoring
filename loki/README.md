@@ -11,7 +11,7 @@ cd /usr/local/bin
 ```
 sudo wget https://github.com/grafana/loki/releases/latest/download/loki-linux-amd64.zip
 ```
-#### get the executable permissions:
+#### Get the executable permissions:
 ```
 sudo unzip loki-linux-amd64.zip
 ```
