@@ -10,3 +10,9 @@ sudo systemctl enable --now grafana-server
 ```
 http://<your-ip>:3000
 ```
+
+#### Click the Connections on the left menu, then select Data Sources.
+- Click Add data source and select Prometheus.
+- Set the URL to http://localhost:9090 and click Save & Test.
+- Go back, click Add data source again, and select Loki.
+- Set the URL to http://localhost:3100 and click Save & Test.
