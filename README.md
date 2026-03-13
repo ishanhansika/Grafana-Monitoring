@@ -46,6 +46,6 @@ The courier. Its job is to read your server's log files and ship them directly t
 ## 1.4 Configure Promtail
 * [Promtail](Promtail/README.md)
 ## 1.5 Implement Security
-* [Security](Promtail/README.md)
+* [Security](Security/README.md)
 
 
