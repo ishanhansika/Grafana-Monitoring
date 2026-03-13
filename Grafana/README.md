@@ -10,7 +10,7 @@ sudo systemctl enable --now grafana-server
 ```
 http://<your-ip>:3000
 ```
-## Before the adding datasourse you should configure Loki and Prometheus on same server or same vm 
+## Before the adding datasourse you should configure Loki and Prometheus on same Server or same VM 
 
 #### Click the Connections on the left menu, then select Data Sources.
 - Click Add data source and select Prometheus.
