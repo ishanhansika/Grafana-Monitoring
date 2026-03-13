@@ -53,6 +53,8 @@ scrape_configs:
 
           job: syslog
 
+          host: NewServerName    # server name  
+
           __path__: /var/log/*.log
 ```
 
