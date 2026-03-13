@@ -1,5 +1,7 @@
 ## Promtail
 
+<img width="502" height="221" alt="image" src="https://github.com/user-attachments/assets/931e0b88-96d2-4c09-bf70-2ad9f50d9e37" />
+
 #### Install Promtail (Log Collector)
 ```
 cd /usr/local/bin
