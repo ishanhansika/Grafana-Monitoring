@@ -94,3 +94,43 @@ limits_config:
   max_cache_freshness_per_query: 10m
 
 ```
+
+#### Create Loki systemd Service
+```
+sudo nano /etc/systemd/system/loki.service
+```
+Add:
+```
+[Unit]
+
+Description=Loki Log Aggregation System
+
+After=network.target
+
+
+[Service]
+
+ExecStart=/usr/local/bin/loki -config.file=/etc/loki/loki-config.yml
+
+Restart=always
+
+User=root
+
+
+[Install]
+
+WantedBy=multi-user.target
+```
+
+#### Reload the system
+```
+sudo systemctl daemon-reload
+```
+```
+sudo systemctl start loki
+```
+```
+sudo systemctl enable loki
+```
+
+
