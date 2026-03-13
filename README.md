@@ -10,6 +10,9 @@ I’m talking about a Full-stack Monitoring Solution that lets you know exactly 
 
 • Remote Servers: On the servers you actually want to monitor, you install Node Exporter (for metrics) and Promtail (for logs).
 
+<img width="1664" height="624" alt="Gemini_Generated_Image_61dday61dday61dd" src="https://github.com/user-attachments/assets/5f577b9b-6e2f-44eb-92dc-67356e1f902f" />
+
+
 🛠️ Meet the "Fantastic 5" Tools:
 
 ### • 🖼️ Grafana:
