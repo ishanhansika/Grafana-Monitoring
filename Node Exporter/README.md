@@ -1,5 +1,9 @@
 ## Node Exporter 
 
+#### Core Communication Details
+<img width="543" height="467" alt="image" src="https://github.com/user-attachments/assets/fef6aef2-8cbe-4d8c-931d-fedca47b5cc5" />
+
+
 #### Install and Configure Node Exporter
 ```
 wget https://github.com/prometheus/node_exporter/releases/download/v1.9.0/node_exporter-1.9.0.linux-amd64.tar.gz
