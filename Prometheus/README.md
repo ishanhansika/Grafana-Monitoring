@@ -3,7 +3,12 @@
 <center><img width="543" height="467" alt="image" src="https://github.com/user-attachments/assets/a3c3cac7-a72a-4c53-a181-2193a2a864de" /></center>
 
 
+### Core Communication Details
+Component	      Default Port	            Role in Communication
+Node Exporter	   9100	                Listens for incoming "scrape" requests from Prometheus.
+Prometheus	       9090	                Initiates the connection to Node Exporter (Client).
 
+Prometheus Listting port 9090
 
 #### Install Prometheus
 ```
