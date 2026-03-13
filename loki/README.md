@@ -26,6 +26,7 @@ Loki is ready to go.
 ```
 sudo nano /etc/loki/loki-config.yml
 ```
+
 ```
 auth_enabled: false
 
@@ -90,4 +91,5 @@ limits_config:
   ingestion_rate_mb: 4
 
   max_cache_freshness_per_query: 10m
+
 ```
