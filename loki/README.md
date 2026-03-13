@@ -1,6 +1,6 @@
 Loki
 
-Create a Dedicated Loki Directory
+#### Create a Dedicated Loki Directory
 ```
 sudo mkdir -p /etc/loki /var/lib/loki
 ```
@@ -15,6 +15,7 @@ sudo wget https://github.com/grafana/loki/releases/latest/download/loki-linux-am
 ```
 sudo unzip loki-linux-amd64.zip
 ```
+```
 sudo chmod +x loki-linux-amd64
 ```
 ```
@@ -26,8 +27,8 @@ Loki is ready to go.
 ```
 sudo nano /etc/loki/loki-config.yml
 ```
-
 ```
+
 auth_enabled: false
 
 
