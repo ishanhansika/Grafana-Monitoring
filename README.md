@@ -44,5 +44,5 @@ The courier. Its job is to read your server's log files and ship them directly t
 ## Configure Node Exporter
 * [Node Exporter](Node%20Exporter/README.md)
 ## Configure Promtail
-* [Promtail](https://your-link-here.com)
+* [Promtail](Promtail/README.md)
 
