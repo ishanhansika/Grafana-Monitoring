@@ -18,11 +18,6 @@ Nano /etc/prometheus/prometheus.yml
       - targets: ['node01.srv.world:9100']    #youneed to change this here.you need to put the ip of the server you want to monitor.
 ```
 
-#### Open the Browser and go to the site
-```
-http://(Prometheus server's hostname or IP address):9090
-```
-
 #### Start and Enable Prometheus
 ```
 sudo systemctl daemon-reload
@@ -33,3 +28,9 @@ sudo systemctl start prometheus
 ```
 sudo systemctl enable prometheus
 ```
+
+#### Open the Browser and go to the site
+```
+http://(Prometheus server's hostname or IP address):9090
+```
+
