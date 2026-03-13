@@ -38,7 +38,7 @@ The courier. Its job is to read your server's log files and ship them directly t
 ## Configure Prometheus
 * [Promethes](Prometheus/README.md)
 ## Configure Loki
-* [Loki](https://your-link-here.com)
+* [Loki](loki/README.md)
 ## Configure Grafana
 * [Grafana](Grafana/README.md)
 ## Configure Node Exporter
