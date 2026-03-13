@@ -1,5 +1,8 @@
 ## Loki
 
+<center><img width="457" height="248" alt="image" src="https://github.com/user-attachments/assets/e43a2046-1de4-458a-bde0-01c0c2d1fb8f" /></center>
+
+
 #### Create a Dedicated Loki Directory
 ```
 sudo mkdir -p /etc/loki /var/lib/loki
