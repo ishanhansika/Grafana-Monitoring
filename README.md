@@ -35,14 +35,17 @@ The courier. Its job is to read your server's log files and ship them directly t
 
 3. Real-time Alerts: Catch system errors before they become disasters by setting up instant alerts (via Slack, Email, etc.).
 
-## Configure Prometheus
+## 1 Configure Prometheus
 * [Promethes](Prometheus/README.md)
-## Configure Loki
+## 1.1 Configure Loki
 * [Loki](loki/README.md)
-## Configure Grafana
+## 1.2 Configure Grafana
 * [Grafana](Grafana/README.md)
-## Configure Node Exporter
+## 1.3 Configure Node Exporter
 * [Node Exporter](Node%20Exporter/README.md)
-## Configure Promtail
+## 1.4 Configure Promtail
 * [Promtail](Promtail/README.md)
+## 1.5 Implement Security
+* [Security](Promtail/README.md)
+
 
