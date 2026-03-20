@@ -10,7 +10,7 @@ apt -y install prometheus-node-exporter
 
 #### Edit the Configuration File Add Remote Nodes
 ```
-Nano /etc/prometheus/prometheus.yml
+nano /etc/prometheus/prometheus.yml
 ```
 ```
 - job_name: Monitoring Server
